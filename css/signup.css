@@ -21,10 +21,6 @@
 	padding: 6px 12px;
 }
 
-/* .btn-labeled {
-	padding-top: 0;
-	padding-bottom: 0;
-} */
 
 .btn {
 	margin-bottom: 10px;
@@ -83,7 +79,7 @@
 }
 
 .form-control-one {
-    border: 1px solid #1A1A1A;
+    border: 1px solid #AF13AF;
     backdrop-filter: blur(4px);
     border-radius: 5px;
     width: 100%;
@@ -91,7 +87,7 @@
 }
 
 .form-control-one:hover {
-    border: 2px solid #1A1A1A;
+    border: 2px solid #AF13AF;
 }
 
 .btn-labeled {
@@ -107,16 +103,18 @@
 }
 
 @media only screen and (max-width: 425px) {
-    
+    .signup-page {
+        width: 100%;
+    }
 	.btn-label {
 		position: relative;
-		left: -20%;
+		left: -16%;
 		display: inline-block;
 		padding: 6px 12px;
 	}
 	.btn-label-two {
 		position: relative;
-		left: -21%;
+		left: -17%;
 		display: inline-block;
 		padding: 6px 12px;
 	}
