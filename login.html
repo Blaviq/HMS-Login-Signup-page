@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience Life - Make yourself comfortable.">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <title>Login Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white py-3 py-md-5 py-lg-0">
+        <div class="container-fluid d-flex justify-content-between px-0">
+            <a class="navbar-brand height-50px lg-height-75px me-lg-5 me-xl-5 ms-3 ms-lg-4 ms-xl-5" href="#">
+                <img src="img/ay-Hotellogo-dg.png" alt="Our Logo" class="h-100" width="120">
+            </a>
+            <button class="navbar-toggler bg-pink-1 py-2 px-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarOneContent" aria-controls="navbarOneContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><img src="img/menu.png" alt=""></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarOneContent">
+                <div class="d-flex flex-column flex-lg-row justify-content-between width-100 px-0 mx-0 ps-lg-0 ms-lg-0 ps-xl-5 ms-xl-5">
+                    <ul class="navbar-nav text-grey-4 d-flex flex-column flex-lg-row justify-content-between width-100 lg-width-50 xl-width-45">
+                        <li class="nav-item">
+                            <a class="nav-link fs-nav text-grey-4 fw-500 ms-3 active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-nav text-grey-4 fw-500 ms-3" href="#">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-nav text-grey-4 fw-500 ms-3" href="#">Restaurants</a>
+                        </li>
+                    </ul>
+                    <div class="row d-flex flex-column flex-lg-row justify-content-between align-items-center width-100 lg-width-40 xl-width-40 me-lg-5 me-xl-5 m-0">
+                        <a href="login.html" class="col-12 col-lg-5 lg-bdr-rad-2 primary-btn text-decoration-none text-start text-lg-center text-white fw-500 lg-fw-700 fs-button py-2 ps-3 ps-lg-0 me-0">Log In</a>  
+                        <a href="signup.html" class="col-12 col-lg-5 lg-bdr-rad-2 nav-ghost-primary-btn text-decoration-none text-start text-lg-center fs-button py-2 ps-3 ps-lg-0">Sign Up</a>
+                        <div class="col-1 d-none d-lg-block">
+                            <img src="img/notification-on-dg.png" alt="notification" class="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="login-section" class="py-3">
+      <div class="container">
+        <div class="text-center pt-5">
+            <h1 class="heading-section fw-bold">Log In to your Account </h1>
+        </div>
+          <div class="justify-content-center">
+            <div class="login-wrap p-4 p-md-5">
+              <form action="#" class="signin-form">
+                <div class="w-100 mb-4 position-relative">
+                  <p class="fs-copyright mb-1">Email</p>
+                  <input type="email" name="email" id="" class="form-input-two bdr-rad-2 fs-copyright py-3 px-5 mt-1 text-black" placeholder="Email">
+                  <img src="img/email-dg (1).png" alt="" class="input-icon">
+              </div>
+                <div class="width-100 lg-width-100 mb-2 position-relative">
+                  <p class="fs-copyright mb-1">Password</p>
+                  <input type="password" name="password" id="password1" class="form-input-two fs-copyright bdr-rad-2 py-3 px-5 mt-1 text-black" placeholder="Password">
+                  <img src="img/padlock-dg.png" alt="" class="input-icon">
+                  <div id="password-toggler1" class="password-toggler" role="button" onclick="passwordToggle()">
+                      <img src="img/eye-open.png" id="eye-open1" class="password-eyes eye-open">
+                      <img src="img/eye-closed.png" id="eye-closed1" class="password-eyes eye-closed">
+                  </div>
+              </div>
+                <div class="form-group d-md-flex mb-5">
+                <div class="w-50 text-left mb-2">
+                    <label class="checkbox-wrap checkbox-primary mb-0">
+                    <input type="checkbox" checked="">
+                    <span class="checkmark"></span>
+                    Remember Me</label>
+                </div>
+                <div class="w-50 text-md-end">
+                    <a href="#" class="text-decoration-none" style="color:  #AF13AF;">Forgot Password</a>
+                </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="form-control-one btnn submit px-3 py-3 text-light">Sign In</button>
+                </div>
+                <div class="form-group  py-3">
+                    <a href="signup.html"><button type="submit" class="form-control-one btn submit px-3  py-3 shadow-sm bg-body" style="background-color: #fff;">Create an Account</button></a>
+                </div>
+              </form>
+              <div class="text-center py-3">
+                <h6>OR</h6>
+              </div>
+              <div class="">
+                <div class="d-grid col-12 mx-auto">
+                  <button class="btn btn-labeled submit py-2" type="submit">
+                    <span class="btn-label"><img src="img/google-dg.png" alt=""></span>Sign in with Google</button>
+                </div>
+                <div class="d-grid col-12 mx-auto">
+                  <button class="btn btn-labeled py-2" type="submit">
+                    <span class="btn-label-two"><img src="img/apple-logo1-dg.png" alt=""></i></span>Sign in with Apple</button>
+                </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

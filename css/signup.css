@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.checkbox-primary input:checked ~ .checkmark:after {
+    color: #E95D02;
+}
+
+.btn-label {
+	position: relative;
+	left: -30%;
+	display: inline-block;
+	padding: 6px 12px;
+}
+.btn-label-two {
+	position: relative;
+	left: -31%;
+	display: inline-block;
+	padding: 6px 12px;
+}
+
+/* .btn-labeled {
+	padding-top: 0;
+	padding-bottom: 0;
+} */
+
+.btn {
+	margin-bottom: 10px;
+}
+
+.btnn {
+    background-color:  #AF13AF;
+}
+
+.form-input-two {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #1A1A1A;
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+}
+
+.form-input-two:hover {
+    border: 2px solid #1A1A1A;
+    box-shadow: 0 0 0 4px #F49AF420;
+}
+.form-input-two:active, .form-input-two:focus {
+    outline: none;
+    border: 2px solid #1A1A1A;
+    box-shadow: 0 0 0 4px #F49AF470;
+}
+
+.input-icon {
+    height: 16px;
+    position: absolute;
+    bottom: 18px;
+    left: 0.9rem;
+}
+.input-icon-2 {
+    height: 12px;
+    position: absolute;
+    bottom: 20px;
+    left: 0.9rem;
+}
+
+.password-toggler {
+    position: absolute;
+    bottom: 13px;
+    right: 0.9rem;
+    cursor: pointer;
+}
+.password-eyes {
+    height: 18px;
+    opacity: 0.9;
+}
+.eye-open {
+    display: none;
+}
+.eye-closed {
+    display: block;
+}
+
+.form-control-one {
+    border: 1px solid #1A1A1A;
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    width: 100%;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-control-one:hover {
+    border: 2px solid #1A1A1A;
+}
+
+.btn-labeled {
+    border: 1px solid #1A1A1A;
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    width: 100%
+}
+
+.btn-labeled:hover {
+    border: 2px solid #1A1A1A;
+    box-shadow: 0 0 0 4px #F49AF420;
+}
+
+@media only screen and (max-width: 425px) {
+    
+	.btn-label {
+		position: relative;
+		left: -20%;
+		display: inline-block;
+		padding: 6px 12px;
+	}
+	.btn-label-two {
+		position: relative;
+		left: -21%;
+		display: inline-block;
+		padding: 6px 12px;
+	}
+}
